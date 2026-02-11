@@ -1,5 +1,8 @@
 # Installation
-1. Pull this repository with `--recursive` parameter
+1. Clone this repository with `--recursive` parameter
+   ```shell
+   git clone git@github.com:maciej-umanski/dotfiles.git --recursive
+   ```
 2. [Install homebrew](https://brew.sh)
 3. [Install Oh-my-zsh](https://ohmyz.sh)
 4. Bind dotfiles
