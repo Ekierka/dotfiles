@@ -1,3 +1,4 @@
+brew "mas"
 brew "node"
 brew "openjdk@17"
 cask "adobe-digital-editions"
@@ -8,3 +9,11 @@ cask "firefox"
 cask "monitorcontrol"
 cask "send-to-kindle"
 cask "the-unarchiver"
+mas "AdGuard for Safari", id: 1440147259
+mas "Amphetamine", id: 937984704
+mas "Keynote", id: 409183694
+mas "Kindle", id: 302584613
+mas "Numbers", id: 409203825
+mas "Numbers", id: 361304891
+mas "Pages", id: 409201541
+mas "WireGuard", id: 1451685025
