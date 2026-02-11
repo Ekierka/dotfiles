@@ -1,7 +1,7 @@
 # Installation
 1. Clone this repository with `--recursive` parameter
    ```shell
-   git clone git@github.com:maciej-umanski/dotfiles.git --recursive
+   git clone git@github.com:Ekierka/dotfiles.git --recursive
    ```
 2. [Install homebrew](https://brew.sh)
 3. [Install Oh-my-zsh](https://ohmyz.sh)
@@ -17,15 +17,3 @@
    ```shell
    defaults write com.apple.Dock autohide-delay -float 0 && killall Dock
    ```
-7. Add ssh key to ssh-agent
-   ```shell
-   ssh-add --apple-use-keychain ~/.ssh/id_ed25519
-   ```
-8. Set up autorun script
-   * start Automator.app
-   * select Application
-   * add Run shell script (from the Actions/Utilities)
-   * copy & paste your script into the window
-   * save somewhere (for example you can make an Applications folder in your HOME, you will get an yourname.app)
-   * go to System Preferences -> Users & Groups -> Login items (or System Preferences -> Accounts -> Login items / depending of your MacOS version)
-   * add this app
